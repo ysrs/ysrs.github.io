@@ -71,7 +71,7 @@ $D = \left \{ (x_i, y_i) \right\}^n_{i=1}$， 其中
 $x_i \in R^d$， $y_i \in {0, 1}$
 
 
-$D = \left \{ (x_i, y_i) \right \}^n_{i=1}$， 其中
+$D = {(x_i, y_i)}^n_{i=1}$， 其中
 $x_i \in R^d$， $y_i \in {0, 1}$
 
 
