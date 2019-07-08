@@ -67,13 +67,13 @@ $w^Tx + b = 0$
 
 # 逻辑回归的目标函数
 假设我们有如下数据集：
-$D = \left\{ (x_i, y_i) \right\}^n_{i=1}$，其中
-$x_i \in R^d$，$y_i \in {0, 1}$
+$D = \left \{ (x_i, y_i) \right\}^n_{i=1}$， 其中
+$x_i \in R^d$， $y_i \in {0, 1}$
 
 我们的目标就是让我们的概率值 $p(y|x; w,b)$ 最大化。
 
 那么我们的目标就是找出 $\hat w$ 和 $\hat b$
-使得样本中所有概率乘积 $\Pi^n_{i=1}p(y_i|x_i; w, b)$最大的值，即
+使得样本中所有概率乘积 $\Pi^n_{i=1}p(y_i|x_i; w, b)$ 最大的值，即
 
 $\hat w, \hat b = argmax_{w,b}\Pi^n_{i=1}p(y_i|x_i; w, b)$
 
