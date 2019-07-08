@@ -70,6 +70,12 @@ $w^Tx + b = 0$
 $D = \left \{ (x_i, y_i) \right\}^n_{i=1}$， 其中
 $x_i \in R^d$， $y_i \in {0, 1}$
 
+
+$D = \left \{ (x_i, y_i) \right \}^n_{i=1}$， 其中
+$x_i \in R^d$， $y_i \in {0, 1}$
+
+
+
 我们的目标就是让我们的概率值 $p(y|x; w,b)$ 最大化。
 
 那么我们的目标就是找出 $\hat w$ 和 $\hat b$
